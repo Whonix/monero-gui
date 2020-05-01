@@ -1,0 +1,23 @@
+## Copyright (C) 2012 - 2020 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: monero-gui
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 12)
+Homepage: https://github.com/Whonix/monero-gui
+Vcs-Browser: https://github.com/Whonix/monero-gui
+Vcs-Git: https://github.com/Whonix/monero-gui.git
+Standards-Version: 4.3.0
+
+Package: monero-gui
+Architecture: all
+Depends: fuse, ${shlibs:Depends}, ${misc:Depends}
+Description: Monero - A Reasonably Private Digital Currency
+ Monero is cash for a connected world. It’s fast, private, and secure.
+ With Monero, you are your own bank. You can spend safely, knowing that others
+ cannot see your balances or track your activity.
+ .
+ This package contains the Monero graphical user interface (GUI) and command
+ line interface (CLI) programs.

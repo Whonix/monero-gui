@@ -1,0 +1,31 @@
+#!/bin/bash
+
+## Copyright (C) 2020 - 2020 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+version_numbers_by_upstream=true
+
+genmkfile_lintian_post_opts+=" --suppress-tags binary-or-shlib-defines-rpath "
+genmkfile_lintian_post_opts+=" --suppress-tags unstripped-binary-or-object "
+
+genmkfile_lintian_post_opts+=" --suppress-tags embedded-library "
+genmkfile_lintian_post_opts+=" --suppress-tags arch-independent-package-contains-binary-or-object "
+genmkfile_lintian_post_opts+=" --suppress-tags source-is-missing "
+genmkfile_lintian_post_opts+=" --suppress-tags source-contains-prebuilt-binary "
+genmkfile_lintian_post_opts+=" --suppress-tags missing-dependency-on-libc "
+
+## https://github.com/monero-project/monero/issues/6492
+genmkfile_lintian_post_opts+=" --suppress-tags spelling-error-in-binary "
+
+genmkfile_lintian_post_opts+=" --suppress-tags extended-description-line-too-long "
+
+## https://github.com/monero-project/monero/issues/2516
+genmkfile_lintian_post_opts+=" --suppress-tags binary-without-manpage "
+
+## TODO: low priority - doc-base
+## https://wiki.debian.org/doc-base
+## /usr/share/doc/doc-base/doc-base.html/index.html
+genmkfile_lintian_post_opts+=" --suppress-tags possible-documentation-but-no-doc-base-registration "
+
+## TODO: low priority - machine readable copyright file
+genmkfile_lintian_post_opts+=" --suppress-tags no-dep5-copyright "

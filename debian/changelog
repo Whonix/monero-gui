@@ -1,0 +1,11 @@
+monero-gui (0:0.15.0.4.1-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 01 May 2020 10:00:00 -0000
+
+monero-gui (0:0.1-2) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 01 May 2020 09:00:00 -0000
