@@ -7,9 +7,6 @@ This package is funded by The [Monero](https://www.getmonero.org/) Project
 [Community Crowdfunding System (CCS)](https://ccs.getmonero.org/), proposal
 [Monero Debian Package Repository for 2 years](https://ccs.getmonero.org/proposals/adrelanos-debian-package.html).
 
-(CCS [merge request](https://repo.getmonero-gui.org/monero-gui-project/ccs-proposals/-/merge_requests/130),
-[reddit discussion](https://www.reddit.com/r/Monero/comments/fc8c2j/whonix_lead_developer_wants_to_maintain_a_debian/fjbicev/),
-
 ## How to install Monero using apt-get ##
 
 1\. Download [Whonix's Signing Key](https://www.whonix.org/wiki/Whonix_Signing_Key).
@@ -63,5 +60,7 @@ See instructions.
 
 ## Links ##
 
+* [CCS merge request](https://repo.getmonero-gui.org/monero-gui-project/ccs-proposals/-/merge_requests/130)
+* [reddit discussion](https://www.reddit.com/r/Monero/comments/fc8c2j/whonix_lead_developer_wants_to_maintain_a_debian/fjbicev/))
 * [Whonix Policy for Inclusion of Compiled Software](https://forums.whonix.org/t/policy-for-inclusion-of-compiled-software/6635)
 * [Whonix forum discussion](https://forums.whonix.org/t/monero-and-whonix-sitting-in-a-tree/5949/24)
