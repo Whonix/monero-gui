@@ -1,1 +1,11 @@
-TODO
+commit 4e3fe9ac9973ddd72750ff068053eb26e90efd17
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 1 10:45:35 2020 -0400
+
+    readme
+
+commit c008be3932df1e936d352820427e198c767c37f2
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 1 10:39:05 2020 -0400
+
+    initial implementation
