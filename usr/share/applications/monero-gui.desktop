@@ -2,7 +2,6 @@
 Comment=Start Monero wallet
 Exec=monero-wallet-gui
 Type=Application
-Name=Monero GUI
 GenericName[en_US]=Monero Wallet
 GenericName=Monero Wallet
 Name[en_US]=Monero Wallet
