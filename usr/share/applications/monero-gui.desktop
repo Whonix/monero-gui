@@ -2,9 +2,9 @@
 Comment=Start Monero wallet
 Exec=monero-wallet-gui
 Type=Application
-GenericName[en_US]=Monero Wallet
-GenericName=Monero Wallet
-Name[en_US]=Monero Wallet
-Name=Monero Wallet
+GenericName[en_US]=Monero (XMR) Wallet
+GenericName=Monero (XMR) Wallet
+Name[en_US]=Monero (XMR) Wallet
+Name=Monero (XMR) Wallet
 Icon=monero
-Keywords=money;anonymity;privacy;cryptocurrency;Finance;Network;
+Keywords=XRM;money;anonymity;privacy;cryptocurrency;Finance;Network;
