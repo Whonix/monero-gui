@@ -1,3 +1,6 @@
+## Copyright (C) 2014 - 2020 The Monero Project
+## See the file COPYING for copying conditions.
+
 [Desktop Entry]
 Comment=Start Monero wallet
 Exec=monero-wallet-gui
