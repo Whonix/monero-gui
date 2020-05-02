@@ -1,3 +1,43 @@
+commit 971b30c189fd480e701d873b2f9918a0225d5859
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 2 13:43:03 2020 -0400
+
+    same copyright / license as Monero project
+    
+    assign copyright to The Monero Project
+
+commit bb9b192097171bd724f788cda27bde550611b441
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 2 13:39:53 2020 -0400
+
+    improve desktop icon
+
+commit ce2bede4f511bef7ec3e2b335841e602763bf47d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 2 13:38:45 2020 -0400
+
+    improve desktop icon
+
+commit 3c7f815de42d38bbab5c41f9cbb7f8be72335026
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 2 13:37:59 2020 -0400
+
+    improve desktop icon
+
+commit c1a506b6026e6347fc7eb70c61fc6f78849f2b75
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 2 12:49:01 2020 -0400
+
+    add https://raw.githubusercontent.com/monero-project/monero-gui/master/images/appicons/128x128.png
+    
+    fix monero-gui desktop icon
+
+commit ce2976a8c523f2a4c533008c5ba01c9069b6f637
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 1 13:22:49 2020 -0400
+
+    bumped changelog version
+
 commit 4e3fe9ac9973ddd72750ff068053eb26e90efd17
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri May 1 10:45:35 2020 -0400
