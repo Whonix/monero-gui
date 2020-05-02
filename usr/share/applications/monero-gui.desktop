@@ -3,5 +3,5 @@ Comment=Start Monero wallet
 Exec=monero-wallet-gui
 Type=Application
 Name=Monero GUI
-Icon=/usr/share/pixmaps/monero-symbol-on-white-480.png
+Icon=monero
 Keywords=money;anonymity;privacy;cryptocurrency
