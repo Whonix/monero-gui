@@ -51,6 +51,14 @@ Might be sightly different in other desktop environments. Could alternatively st
 monero-wallet-gui
 ```
 
+## VM Users ##
+
+Due to this [VM specific Monero GUI upstream bug](https://github.com/monero-project/monero-gui/issues/2878).
+
+```
+QMLSCENE_DEVICE=softwarecontext monero-wallet-gui
+```
+
 ## How to Start Monero CLI ##
 
 ```
