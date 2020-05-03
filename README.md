@@ -41,6 +41,48 @@ sudo apt-get update
 sudo apt-get install monero-gui
 ```
 
+## How to Start Monero GUI ##
+
+Can be started from start menu. XFCE Start Menu -> Internet -> Monero GUI
+
+Might be sightly different in other desktop environments. Could alternatively start the GUI from command line.
+
+```
+monero-wallet-gui
+```
+
+## How to Start Monero CLI ##
+
+```
+monero-wallet-cli
+```
+
+## How to Start the monerod daemon ##
+
+```
+monerod
+```
+
+## How to Start other Monero Utilities ##
+
+```
+monero-blockchain-ancestry
+monero-blockchain-usage
+monero-blockchain-mark-spent-outputs
+monero-blockchain-export
+monero-blockchain-import
+monero-wallet-gui
+monero-blockchain-depth
+monero-blockchain-prune
+monero-wallet-cli
+monerod
+monero-blockchain-stats
+monero-blockchain-prune-known-spent-data
+monero-gen-ssl-cert
+monero-wallet-rpc
+monero-gen-trusted-multisig
+```
+
 ## How to Build deb Package from Source Code ##
 
 Can be build using standard Debian package build tools such as:
