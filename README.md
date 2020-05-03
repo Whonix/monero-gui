@@ -110,9 +110,12 @@ See instructions.
 
 ## Contact ##
 
-* https://github.com/Whonix/monero-gui/issues
+* [Monero User Support](https://web.getmonero.org/community/hangouts/)
+* [Monero Bugs](https://github.com/monero-project)
+* [Debian packaging specific issues](https://github.com/Whonix/monero-gui/issues)
 
 ## Credits ##
+
 Gratitude is expressed to the donors of Monero who funded the proposal [Monero Debian Package Repository for 2 years](https://ccs.getmonero.org/proposals/adrelanos-debian-package.html), to [@rehrar](https://github.com/rehrar) for helping the creator of the package (Whonix developer Patrick Schleizer) with writing the proposal, everyone else who supported the proposal, and the community of Monero developers and users at large for creating Monero.
 
 ## Links ##
