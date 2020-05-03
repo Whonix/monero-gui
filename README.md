@@ -91,6 +91,10 @@ monero-wallet-rpc
 monero-gen-trusted-multisig
 ```
 
+## How to use Monero ##
+
+Please refer to the [offical Monero documentation](https://web.getmonero.org/get-started/using/).
+
 ## How to Build deb Package from Source Code ##
 
 Can be build using standard Debian package build tools such as:
