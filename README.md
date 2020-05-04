@@ -53,7 +53,7 @@ monero-wallet-gui
 
 ## VM Users ##
 
-Due to this [VM specific Monero GUI upstream bug](https://github.com/monero-project/monero-gui/issues/2878).
+Due to this [VM specific Monero GUI upstream bug](https://github.com/monero-project/monero-gui/issues/2878). Known affacted are to VirtualBox and KVM based virtual machines on Debian buster.
 
 ```
 QMLSCENE_DEVICE=softwarecontext monero-wallet-gui
