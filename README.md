@@ -124,3 +124,4 @@ Gratitude is expressed to the donors of Monero who funded the proposal [Monero D
 * [reddit discussion](https://www.reddit.com/r/Monero/comments/fc8c2j/whonix_lead_developer_wants_to_maintain_a_debian/)
 * [Whonix Policy for Inclusion of Compiled Software](https://forums.whonix.org/t/policy-for-inclusion-of-compiled-software/6635)
 * [Whonix forum discussion](https://forums.whonix.org/t/monero-and-whonix-sitting-in-a-tree/5949/24)
+* [Imprint](https://www.whonix.org/wiki/Imprint)
