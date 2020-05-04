@@ -53,7 +53,7 @@ monero-wallet-gui
 
 ## VM Users ##
 
-Due to this [VM specific Monero GUI upstream bug](https://github.com/monero-project/monero-gui/issues/2878). Known affected are to VirtualBox and KVM based virtual machines on Debian buster. [Reported unaffected is VMWare Fusion](https://github.com/monero-project/monero-gui/issues/2878#issuecomment-623615401), in that case setting `QMLSCENE_DEVICE=softwarecontext` can be omitted.
+Due to this [VM specific Monero GUI upstream bug](https://github.com/monero-project/monero-gui/issues/2878) setting envrionment variable `QMLSCENE_DEVICE=softwarecontext` is required inside some virtual machines (VMs). Known affected are to VirtualBox and KVM based VMs on Debian buster. [Reported unaffected is VMWare Fusion](https://github.com/monero-project/monero-gui/issues/2878#issuecomment-623615401), in that case setting `QMLSCENE_DEVICE=softwarecontext` can be omitted.
 
 ```
 QMLSCENE_DEVICE=softwarecontext monero-wallet-gui
