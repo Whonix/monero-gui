@@ -1,127 +1,26 @@
-# Monero GUI and CLI #
+# Monero GUI Debian Package has been moved to GitLAB #
 
-Contains the Monero graphical user interface (GUI) and command line interface
-(CLI) programs.
+Has been moved here: https://gitlab.com/whonix/monero-gui
 
-This package is funded by The [Monero](https://www.getmonero.org/) Project
-[Community Crowdfunding System (CCS)](https://ccs.getmonero.org/), proposal
-[Monero Debian Package Repository for 2 years](https://ccs.getmonero.org/proposals/adrelanos-debian-package.html).
+Other than that, everything remains the same.
 
-## How to install Monero using apt-get ##
+## Why? ##
 
-1\. Download [Whonix's Signing Key](https://www.whonix.org/wiki/Whonix_Signing_Key).
+Github allows maximum file size 100 MB and at time of writing `monero-wallet-gui` was slightly bigger.
 
 ```
-wget https://www.whonix.org/patrick.asc
+git push origin master
 ```
 
-Users can [check Whonix Signing Key](https://www.whonix.org/wiki/Whonix_Signing_Key) for better security.
-
-2\. Add Whonix's signing key.
-
 ```
-sudo apt-key --keyring /etc/apt/trusted.gpg.d/whonix.gpg add ~/patrick.asc
-```
-
-3\. Add Whonix's APT repository.
-
-```
-echo "deb https://deb.whonix.org buster main contrib non-free" | sudo tee /etc/apt/sources.list.d/whonix.list
+remote: Resolving deltas: 100% (24/24), completed with 13 local objects.
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+remote: error: Trace: 524ad74301f8bed01b8fae36025cbadf
+remote: error: See http://git.io/iEPt8g for more information.
+remote: error: File usr/bin/monero-wallet-gui is 110.91 MB; this exceeds GitHub's file size limit of 100.00 MB
+To ssh://github.com/Whonix/monero-gui.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'ssh://git@github.com/Whonix/monero-gui.git'
 ```
 
-4\. Update your package lists.
-
-```
-sudo apt-get update
-```
-
-5\. Install `monero-gui`.
-
-```
-sudo apt-get install monero-gui
-```
-
-## How to Start Monero GUI ##
-
-Can be started from start menu. XFCE Start Menu -> Internet -> Monero GUI
-
-Might be sightly different in other desktop environments. Could alternatively start the GUI from command line.
-
-```
-monero-wallet-gui
-```
-
-## VM Users ##
-
-Due to this [VM specific Monero GUI upstream bug](https://github.com/monero-project/monero-gui/issues/2878) setting envrionment variable `QMLSCENE_DEVICE=softwarecontext` is required inside some virtual machines (VMs). Known affected are to VirtualBox and KVM based VMs on Debian buster. [Reported unaffected is VMWare Fusion](https://github.com/monero-project/monero-gui/issues/2878#issuecomment-623615401), in that case setting `QMLSCENE_DEVICE=softwarecontext` can be omitted.
-
-```
-QMLSCENE_DEVICE=softwarecontext monero-wallet-gui
-```
-
-## How to Start Monero CLI ##
-
-```
-monero-wallet-cli
-```
-
-## How to Start the monerod daemon ##
-
-```
-monerod
-```
-
-## How to Start other Monero Utilities ##
-
-```
-monero-blockchain-ancestry
-monero-blockchain-usage
-monero-blockchain-mark-spent-outputs
-monero-blockchain-export
-monero-blockchain-import
-monero-wallet-gui
-monero-blockchain-depth
-monero-blockchain-prune
-monero-wallet-cli
-monerod
-monero-blockchain-stats
-monero-blockchain-prune-known-spent-data
-monero-gen-ssl-cert
-monero-wallet-rpc
-monero-gen-trusted-multisig
-```
-
-## How to use Monero ##
-
-Please refer to the [offical Monero documentation](https://web.getmonero.org/get-started/using/).
-
-## How to Build deb Package from Source Code ##
-
-Can be build using standard Debian package build tools such as:
-
-```
-dpkg-buildpackage -b
-```
-
-See instructions.
-
-* **A)** [easy](https://www.whonix.org/wiki/Dev/Build_Documentation/monero-gui/easy), _OR_
-* **B)** [including verifying software signatures](https://www.whonix.org/wiki/Dev/Build_Documentation/monero-gui)
-
-## Contact ##
-
-* [Monero User Support](https://web.getmonero.org/community/hangouts/)
-* [Monero Bugs](https://github.com/monero-project)
-* [Debian packaging specific issues](https://github.com/Whonix/monero-gui/issues)
-
-## Credits ##
-
-Gratitude is expressed to the donors of Monero who funded the proposal [Monero Debian Package Repository for 2 years](https://ccs.getmonero.org/proposals/adrelanos-debian-package.html), to [@rehrar](https://github.com/rehrar) for helping the creator of the package (Whonix developer Patrick Schleizer) with writing the proposal, everyone else who supported the proposal, and the community of Monero developers and users at large for creating Monero.
-
-## Links ##
-
-* [CCS merge request](https://repo.getmonero-gui.org/monero-gui-project/ccs-proposals/-/merge_requests/130)
-* [reddit discussion](https://www.reddit.com/r/Monero/comments/fc8c2j/whonix_lead_developer_wants_to_maintain_a_debian/)
-* [Whonix Policy for Inclusion of Compiled Software](https://forums.whonix.org/t/policy-for-inclusion-of-compiled-software/6635)
-* [Whonix forum discussion](https://forums.whonix.org/t/monero-and-whonix-sitting-in-a-tree/5949/24)
-* [Imprint](https://www.whonix.org/wiki/Imprint)
+http://git.io/iEPt8g
